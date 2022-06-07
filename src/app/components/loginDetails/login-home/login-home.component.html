@@ -1,0 +1,10 @@
+<div class="login-page">
+    <div class="form">
+      <form class="login-form"  (ngSubmit)=" onClickLogin()">
+        <input type="text"  placeholder="LoginId" name="loginId" [(ngModel)]="loginDetails.loginId">
+        <input type="password" placeholder="Password" name="password" [(ngModel)]="loginDetails.password"/>
+        <button>login</button>
+        <p class="message"> &nbsp;<a href="#">Forget Password</a></p>
+      </form>
+    </div>
+</div>
